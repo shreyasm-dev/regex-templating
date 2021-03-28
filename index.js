@@ -1,3 +1,17 @@
+/**
+ * @callback templateRegexClosure
+ * @type {Function}
+ * @param {String|RegExp} replacement - The regex or string that is inserted into the other regex
+ * @returns {RegExp}
+ */
+
+/**
+ * The templateRegex function
+ * @param {String|RegExp} regex - Regex that another regex should be inserted into
+ * @param {String} replaceChar - Character that should be replaced
+ * @returns {templateRegexClosure}
+ */
+
 const templateRegex = (regex, replaceChar = '&') => {
   if (!(regex instanceof RegExp || typeof regex === 'string')) {
     throw new Error('Parameter "regex" must be a regex or a string');
