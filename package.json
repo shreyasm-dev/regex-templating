@@ -1,0 +1,26 @@
+{
+  "name": "regex-templating",
+  "version": "1.0.0",
+  "description": "Quickly concatenate and template regexes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasm-dev/regex-templating.git"
+  },
+  "keywords": [
+    "regex",
+    "templates",
+    "templating",
+    "concatenation",
+    "template"
+  ],
+  "author": "shreyasm-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shreyasm-dev/regex-templating/issues"
+  },
+  "homepage": "https://github.com/shreyasm-dev/regex-templating#readme"
+}
