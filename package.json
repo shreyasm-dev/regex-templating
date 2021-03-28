@@ -1,6 +1,6 @@
 {
   "name": "regex-templating",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Quickly concatenate and template regexes",
   "main": "index.js",
   "scripts": {
