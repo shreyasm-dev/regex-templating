@@ -4,7 +4,9 @@
   "description": "Quickly concatenate and template regexes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "docs": "documentation build index.js -o docs/index.md -f md",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
